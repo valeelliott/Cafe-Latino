@@ -5,11 +5,13 @@ html {
 :before;
 :after {
     box-sizing: inherit;
+
 }
 body { 
-    margin: 0;
+    margin:0;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 nav ul {
     margin: 0;
     padding: 0;
@@ -29,12 +31,46 @@ nav ul li a {
    color: #eeeeee;
    display: block;
    padding:10px;
-   background-color: #393939;
+   background-color: #7ad3ca;
    text-transform: uppercase;
    font-weight: 600;
+   height: 30px;
+
 }
 nav ul li a:hover {
     background-color: #fcfcfc;
     color: #000;
+    height: 30px;
 
 }
+.content-wrapper {
+    margin: 0;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+     
+}
+
+ .portfolio-item-wrapper {
+   position: relative;
+ }
+.business-content-wrapper {
+    position: relative;
+      padding-left: 20px;
+      padding-right: 20px;
+}
+.contact-form {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.footer {
+    color: #333;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: bottom;
+    
+}
+
+
